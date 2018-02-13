@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>.Map IDE</h1>
+    <form #userForm="ngForm" (ngSubmit)="compileMap(userForm)">
+      <div class="form-group">
+        <label for="codigoMap">Name</label>
+        <textarea rows="25" class="form-control" id="codigoMap" name="codigoMap"
+        ngModel></textarea>
+      </div>
+ 
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
