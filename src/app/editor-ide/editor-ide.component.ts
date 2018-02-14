@@ -41,8 +41,8 @@ export class EditorIdeComponent implements OnInit {
    *    ID -> ID in the .html file of the Text area
    **/
   enableTab(id) {
-    //const el = document.getElementById(id);
-    //el.onkeydown = function(e) {
+    // const el = document.getElementById(id);
+    // el.onkeydown = function(e) {
     //    if (e.keyCode === 9) { // tab was pressed
 
             // get caret position/selection
@@ -60,7 +60,7 @@ export class EditorIdeComponent implements OnInit {
     //        return false;
 
     //    }
-    //};
+    // };
   }
 
    /**
