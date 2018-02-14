@@ -15,7 +15,7 @@ interface Parametros {
   styleUrls: ['./editor-ide.component.css']
 })
 export class EditorIdeComponent implements OnInit {
-
+//toUpload to gIT
   //baseUrl = 'http://localhost:36532/api/MapCompiler';
   baseUrl = 'http://vbuctranslator.azurewebsites.net/api/MapCompiler';
 
